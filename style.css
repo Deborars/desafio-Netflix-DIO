@@ -66,6 +66,10 @@ main movie
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.main-movie .container{
+  width: 70%;
+}
+
 .main-movie .description{
   margin-top: 10px;
   margin-bottom: 30px;
