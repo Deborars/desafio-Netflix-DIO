@@ -17,6 +17,7 @@ base elements
 body{
   background:var(--black);
   color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 header .container{
@@ -92,8 +93,39 @@ main movie
 /*
 carousel
 */
+.movies-carousel{
+  margin-top: 5px;
+}
+
 .movies-carousel .movie-box{
   width: 100%;
   height: 100%;
   display:block;
+}
+
+/*
+----------------
+media queries
+----------------
+*/
+@media screen and (max-width:700px){
+  header .container{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-movie .btns .btn{
+  margin-top: 10px;
+  width: 300px;
+}
+}
+
+@media screen and (min-width:1000px){
+  .main-movie{
+    min-height: 80vh;
+  }
+
+  .main-movie .description{
+    width: 50%;
+  }
 }
