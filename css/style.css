@@ -26,12 +26,6 @@ header .container{
   align-items: center;
 }
 
-header .logo{
-  color: red;
-  font-family: "Arial Black", Times;
-  font-size: 40px;
-}
-
 header nav a{
   text-decoration: none;
   color: #aaa;
@@ -50,7 +44,7 @@ main movie
 .main-movie{
   font-size: 16px;
   background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)100%),
-  url("./images/banner.jpg") center/cover no-repeat;
+  url("../images/banner.jpg") center/cover no-repeat;
   height: 400px;
   display: flex;
   flex-direction: column;
@@ -93,4 +87,13 @@ main movie
 
 .main-movie .btns .btn i{
   margin-right: 8px;
+}
+
+/*
+carousel
+*/
+.movies-carousel .movie-box{
+  width: 100%;
+  height: 100%;
+  display:block;
 }
